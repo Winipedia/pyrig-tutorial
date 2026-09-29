@@ -21,6 +21,8 @@
     "permissions":
       "contents": "read"
     "uses": "$/.github/workflows/health_check.yml"
+    "secrets":
+      "CODECOV_TOKEN": "${{ secrets.CODECOV_TOKEN }}"
   "publish":
     "name": "Publish"
     "permissions":

@@ -40,6 +40,7 @@ dev = [
   "prek>=0.5.4",
   "pyflakes>=4.0.0",
   "pyrig>=18.92.1",
+  "pyrig-codecov>=3.17.44",
   "pyrig-env>=1.0.41",
   "pytest>=9.1.1",
   "pytest-cov>=7.1.0",
@@ -74,8 +75,9 @@ DEP002 = [
 [tool.pytest]
 addopts = [
   "--cov-branch",
-  "--cov-fail-under=90",
+  "--cov-fail-under=100",
   "--cov-report=term-missing:skip-covered",
+  "--cov-report=xml",
   "--cov=pyrig_tutorial",
   "--dist=worksteal",
   "--numprocesses=auto",

@@ -3,7 +3,7 @@
 <!-- project-status -->
 [![CI](https://img.shields.io/github/actions/workflow/status/Winipedia/pyrig-tutorial/health_check.yml?label=CI&logo=github)](https://github.com/Winipedia/pyrig-tutorial/actions/workflows/health_check.yml)
 [![CD](https://img.shields.io/github/actions/workflow/status/Winipedia/pyrig-tutorial/release.yml?label=CD&logo=github)](https://github.com/Winipedia/pyrig-tutorial/actions/workflows/release.yml)
-[![ProjectTester](https://img.shields.io/badge/coverage->=90%25-hsl(108,80%25,45%25)?logo=codecov&logoColor=white)](https://pytest.org)
+[![ProjectTester](https://codecov.io/gh/Winipedia/pyrig-tutorial/branch/main/graph/badge.svg)](https://codecov.io/gh/Winipedia/pyrig-tutorial)
 <!-- code-quality -->
 [![ByteOrderMarkerFormatter](https://img.shields.io/badge/BOM-fix--byte--order--marker-orange)](https://github.com/pre-commit/pre-commit-hooks)
 [![CICDLinter](https://img.shields.io/badge/CI/CD-actionlint-blue)](https://github.com/rhysd/actionlint)
