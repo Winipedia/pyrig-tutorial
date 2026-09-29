@@ -1,7 +1,7 @@
 [project]
 name = "pyrig-tutorial"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
 license = "MIT"
@@ -16,6 +16,7 @@ maintainers = [
 ]
 dependencies = [
   "pyrig-runtime>=3.23.61",
+  "typer>=0.27.2",
 ]
 
 [project.urls]

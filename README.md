@@ -41,6 +41,6 @@
 
 ---
 
-> Add your description here
+> Tutorial for pyrig.
 
 ---

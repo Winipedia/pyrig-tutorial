@@ -750,6 +750,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "pyrig-runtime" },
+    { name = "typer" },
 ]
 
 [package.dev-dependencies]
@@ -780,7 +781,10 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pyrig-runtime", specifier = ">=3.23.61" }]
+requires-dist = [
+    { name = "pyrig-runtime", specifier = ">=3.23.61" },
+    { name = "typer", specifier = ">=0.27.2" },
+]
 
 [package.metadata.requires-dev]
 dev = [

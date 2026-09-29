@@ -1,7 +1,7 @@
 {
   "repository": {
     "name": "pyrig-tutorial",
-    "description": "Add your description here",
+    "description": "Tutorial for pyrig.",
     "homepage": "https://Winipedia.github.io/pyrig-tutorial",
     "default_branch": "main",
     "delete_branch_on_merge": true,
