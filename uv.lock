@@ -733,6 +733,19 @@ wheels = [
 ]
 
 [[package]]
+name = "pyrig-env"
+version = "1.0.41"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyrig" },
+    { name = "pyrig-runtime" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/cb/4e/847acb637927e411d5a6f4549c8d925b89ce1fab98b73620136c3c5cb15f/pyrig_env-1.0.41.tar.gz", hash = "sha256:38022c32fa872d4632fb72973ad4c801910e4877667755c3465b904d91889617", size = 5050, upload-time = "2026-09-28T17:48:55.445Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/01/03/0260f613b59dd5e9e978e8b7e1a09f7e519c6372fec3550d4ba773ff7352/pyrig_env-1.0.41-py3-none-any.whl", hash = "sha256:bd4fcf771d37186ccfd6dad7b3145a4be34c614cdbd2e9a4ecb54713ebc0d48e", size = 6336, upload-time = "2026-09-28T17:48:54.588Z" },
+]
+
+[[package]]
 name = "pyrig-runtime"
 version = "3.23.61"
 source = { registry = "https://pypi.org/simple" }
@@ -764,6 +777,7 @@ dev = [
     { name = "prek" },
     { name = "pyflakes" },
     { name = "pyrig" },
+    { name = "pyrig-env" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-randomly" },
@@ -797,6 +811,7 @@ dev = [
     { name = "prek", specifier = ">=0.5.4" },
     { name = "pyflakes", specifier = ">=4.0.0" },
     { name = "pyrig", specifier = ">=18.92.1" },
+    { name = "pyrig-env", specifier = ">=1.0.41" },
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "pytest-cov", specifier = ">=7.1.0" },
     { name = "pytest-randomly", specifier = ">=5.0.0" },
