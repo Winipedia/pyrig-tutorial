@@ -746,6 +746,19 @@ wheels = [
 ]
 
 [[package]]
+name = "pyrig-codeql"
+version = "1.1.11"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyrig" },
+    { name = "pyrig-runtime" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/69/46/df9b614b6888fb6364ec6072cecd3cb9a8c551b0b52d2763d0463f70f3d0/pyrig_codeql-1.1.11.tar.gz", hash = "sha256:79ea6f85903e4da06695f38654931de6bcb8c3e0b49d667d323d0130fd0e6eca", size = 6302, upload-time = "2026-10-01T18:00:14.107Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2d/58/1f3167225e1647d94a9a563cda2ad589b88da76bf1827724162fa8f7b1c6/pyrig_codeql-1.1.11-py3-none-any.whl", hash = "sha256:62382595124478b61e0870cc58e0a9250aa1e7b9da7caea034df6c86ad6cc8c8", size = 10121, upload-time = "2026-10-01T18:00:13.19Z" },
+]
+
+[[package]]
 name = "pyrig-env"
 version = "1.0.42"
 source = { registry = "https://pypi.org/simple" }
@@ -785,7 +798,7 @@ wheels = [
 
 [[package]]
 name = "pyrig-tutorial"
-version = "0.1.4"
+version = "0.1.5"
 source = { editable = "." }
 dependencies = [
     { name = "pyrig-runtime" },
@@ -804,6 +817,7 @@ dev = [
     { name = "pyflakes" },
     { name = "pyrig" },
     { name = "pyrig-codecov" },
+    { name = "pyrig-codeql" },
     { name = "pyrig-env" },
     { name = "pyrig-public" },
     { name = "pytest" },
@@ -840,6 +854,7 @@ dev = [
     { name = "pyflakes", specifier = ">=4.0.0" },
     { name = "pyrig", specifier = ">=18.92.1" },
     { name = "pyrig-codecov", specifier = ">=3.17.44" },
+    { name = "pyrig-codeql", specifier = ">=1.1.11" },
     { name = "pyrig-env", specifier = ">=1.0.41" },
     { name = "pyrig-public", specifier = ">=1.0.1" },
     { name = "pytest", specifier = ">=9.1.1" },

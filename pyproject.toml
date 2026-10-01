@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.1.4"
+version = "0.1.5"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -41,6 +41,7 @@ dev = [
   "pyflakes>=4.0.0",
   "pyrig>=18.92.1",
   "pyrig-codecov>=3.17.44",
+  "pyrig-codeql>=1.1.11",
   "pyrig-env>=1.0.41",
   "pyrig-public>=1.0.1",
   "pytest>=9.1.1",
