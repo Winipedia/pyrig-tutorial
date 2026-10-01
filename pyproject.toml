@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.1.3"
+version = "0.1.4"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -42,6 +42,7 @@ dev = [
   "pyrig>=18.92.1",
   "pyrig-codecov>=3.17.44",
   "pyrig-env>=1.0.41",
+  "pyrig-public>=1.0.1",
   "pytest>=9.1.1",
   "pytest-cov>=7.1.0",
   "pytest-randomly>=5.0.0",
