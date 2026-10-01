@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.1.7"
+version = "0.1.9"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -39,7 +39,6 @@ dev = [
   "pre-commit-hooks>=6.0.0",
   "prek>=0.5.4",
   "pyflakes>=4.0.0",
-  "pyrig>=18.92.1",
   "pyrig-codecov>=3.17.44",
   "pyrig-codeql>=1.1.11",
   "pyrig-env>=1.0.41",
