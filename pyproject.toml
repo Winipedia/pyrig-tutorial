@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.1.44"
+version = "0.1.45"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -112,7 +112,7 @@ select = [
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
-[tool.ryl.rules]
+[tool.ryl.lint.rules]
 ALL = "enable"
 key-ordering = "disable"
 
