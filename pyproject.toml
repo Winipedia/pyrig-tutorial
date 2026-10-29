@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.2.21"
+version = "0.2.30"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
