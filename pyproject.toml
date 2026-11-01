@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.2.34"
+version = "0.2.35"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -119,6 +119,7 @@ strict = true
 [tool.ryl.lint.rules]
 ALL = "enable"
 key-ordering = "disable"
+yaml-directive = "disable"
 
 [tool.vulture]
 paths = [
