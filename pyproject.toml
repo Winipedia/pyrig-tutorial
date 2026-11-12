@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.2.85"
+version = "0.2.87"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -35,6 +35,8 @@ dev = [
   "bandit>=1.9.4",
   "deptry>=0.25.1",
   "detect-secrets>=1.5.0",
+  "hypofuzz>=25.11.1",
+  "hypothesis>=6.170.15",
   "mkdocstrings[python]>=1.0.7",
   "pre-commit-hooks>=6.0.0",
   "prek>=0.5.5",
