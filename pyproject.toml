@@ -1,6 +1,6 @@
 [project]
 name = "pyrig-tutorial"
-version = "0.2.112"
+version = "0.2.116"
 description = "Tutorial for pyrig."
 readme = "README.md"
 requires-python = ">=3.12"
@@ -15,7 +15,7 @@ maintainers = [
   { name = "Winipedia", email = "winipedia@gmx.de" },
 ]
 dependencies = [
-  "pyrig-runtime>=3.27.113",
+  "pyrig-runtime>=3.27.115",
   "typer>=0.29.3",
 ]
 
@@ -36,16 +36,16 @@ dev = [
   "deptry>=0.25.1",
   "detect-secrets>=1.5.0",
   "hypofuzz>=25.11.1",
-  "hypothesis>=6.170.22",
+  "hypothesis>=6.170.23",
   "mkdocstrings[python]>=1.0.8",
   "pre-commit-hooks>=6.0.0",
   "prek>=0.5.12",
   "pyflakes>=4.1.0",
-  "pyorder>=1.0.79",
-  "pyrig-codecov>=5.4.38",
-  "pyrig-codeql>=3.1.51",
-  "pyrig-env>=1.1.106",
-  "pyrig-public>=1.5.2",
+  "pyorder>=1.0.81",
+  "pyrig-codecov>=5.5.0",
+  "pyrig-codeql>=3.2.0",
+  "pyrig-env>=1.1.108",
+  "pyrig-public>=1.5.4",
   "pytest>=9.2.0",
   "pytest-cov>=7.1.0",
   "pytest-randomly>=5.1.0",
